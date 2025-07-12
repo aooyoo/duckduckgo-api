@@ -1,6 +1,6 @@
 from itertools import islice
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 from flask import Flask, request
 
 app = Flask(__name__)
